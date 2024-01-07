@@ -5,13 +5,13 @@ const counterReducer=(state={counter:0},action)=>{
    {
     return { 
 
-        counter:state.counter+1
+        counter:state.counter+2
     }
    }
     if(action.type==='decrement')
     {
        return {
-        counter:state.counter-1
+        counter:state.counter-2
        }
     }
 }
